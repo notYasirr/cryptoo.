@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+}
+
+body {}
+
+.container {
+    /* width: 100vw;
+    height: 100vh; */
+    /* background-color: #42455a;
+    position: absolute; */
+    background-image: url(bitcoin-halving_437632901_banner.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.menu ul {
+    display: inline-flex;
+    margin: 40px;
+}
+
+.menu ul li {
+    list-style: none;
+    margin: 0px 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #b2b1b1;
+}
+
+.logo img {
+    width: 30px;
+    margin-top: -5px;
+    margin-right: 48px;
+}
+
+.active a {
+    color: #19dafa !important;
+}
+
+.Sign-btn {
+    position: absolute;
+    top: 30px;
+    right: 80px;
+    display: inline-block;
+    padding: 6px 20px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    background-image: linear-gradient(#42455a, #42455a), radial-gradient(circle at top left, #fd00da, #19d7f8);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    transition: 0.3s ease-in-out;
+}
+
+.Sign-btn:hover {
+    border: 2px solid #19d7f8;
+    background-image: none;
+    color: #fff;
+    background-color: #19d7f8;
+}
+
+.banner {
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    top: 25%;
+    left: 130px;
+    color: #fff;
+}
+
+.app-text {
+    width: 50%;
+    float: left;
+}
+
+.app-text h1 {
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+
+.app-text p {
+    width: 650px;
+    font-size: 15px;
+    text-align: left;
+    margin: 30px 0px 30px 40px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.play-btn-inn { 
+    position: absolute;
+    top: 250px;
+    left: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Same as width to maintain a circle */
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-image: linear-gradient(#42455a, #42455a), radial-gradient(circle at top left, #fd00da, #19d7f8);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+}
+
+.play-btn-inn:hover { 
+    border: 2px solid #19d7f8;
+    background-image: none;
+    box-shadow: 0px 0px 5px 3px #19d7f8;
+    color: #fff;
+    background-color: #19d7f8;
+}
+small{
+    position: absolute;
+    top: 270px;
+    left: 110px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #19dafa;
+    letter-spacing: 3px;
+    transition: transform 0.3s ease-in-out; 
+}
+small:hover{
+    /* font-size: 20px; */
+    transform: scale(1.1); 
+}
+.quick-links{
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    background: linear-gradient(to right,#db1bf6,#19d7f8);
+    border-radius: 5px;
+}
+.quick-links ul{
+    display: inline-flex;
+    margin: 30px auto;
+    text-align: center;
+}
+.quick-links ul li{
+    list-style: none;
+    margin: 0 50px;
+    cursor: pointer;
+}
+.quick-links ul li p{
+    font-family: "poppins";
+    margin-top: 15px;
+    font-size: 10px;
+}
+.social-icons{
+    bottom:25px;
+    right:22px;
+    position: fixed;
+}
+.social-icons ul li a{
+     border-radius: 50%;
+     border: 1px solid #fff;
+     padding: 8px;
+     transition: 0.3s ease-in-out;
+}
+.social-icons ul li{
+    list-style: none;
+    margin-top: 25px;
+    text-align: center;
+}
+.social-icons ul li .fa-brands{
+    color: #fff;
+}
+.social-icons ul li a:hover { 
+    border-radius: 50%;
+    border: 1px solid #19d7f8;
+    background-image: none;
+    box-shadow: 0px 0px 5px 3px #19d7f8;
+    color: #fff;
+    background-color: #19d7f8;
+}
